@@ -1,0 +1,6 @@
+services:
+  app:
+    image: duhhdm/api-credmail:v2
+    restart: unless-stopped
+    ports:
+      - 8080:9090
